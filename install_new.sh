@@ -172,7 +172,7 @@ echo "Done"
 
 echo -n "Fetching zip... "
 # curl "$URL" -o ./theme.zip
-cp "$DISTDIR/catppuccin-mocha-blue.tar.gz" ./theme.tar.gz
+cp "$DISTDIR/catppuccin-$FLAVOURNAME-$ACCENTNAME.tar.gz" ./theme.tar.gz
 echo "Done"
 
 echo -n "Unzipping... "
