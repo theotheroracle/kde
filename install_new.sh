@@ -197,6 +197,7 @@ kpackagetool5 -i "$SRCROOT"
 echo "Done"
 
 echo -n "Moving files to home dir..."
+mkdir -p "$LOOKANDFEELDIR/catppuccin-$FLAVOURNAME-$ACCENTNAME"
 cp -r "$SRCROOT/Splash/contents/splash" "$LOOKANDFEELDIR/$GLOBALTHEMENAME/contents"
 cp -r "$SRCROOT/Splash/contents/previews" "$LOOKANDFEELDIR/$GLOBALTHEMENAME/contents/previews"
 cp -r "$SRCROOT/catppuccin-$FLAVOURNAME-$STYLENAME" "$AURORAEDIR"
