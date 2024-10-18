@@ -131,7 +131,7 @@ Choose a style -
     1. Modern
     2. Classic
 EOF
-    read -r ACCENT
+    read -r STYLE
 fi
 
 case "$STYLE" in
